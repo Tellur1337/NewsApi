@@ -1,0 +1,34 @@
+C:\Users\User\source\repos\NewsAPI\NewsAPI\NewsAPI\bin\Debug\netstandard2.0\NewsAPI.deps.json
+C:\Users\User\source\repos\NewsAPI\NewsAPI\NewsAPI\bin\Debug\netstandard2.0\NewsAPI.dll
+C:\Users\User\source\repos\NewsAPI\NewsAPI\NewsAPI\bin\Debug\netstandard2.0\ref\NewsAPI.dll
+C:\Users\User\source\repos\NewsAPI\NewsAPI\NewsAPI\bin\Debug\netstandard2.0\NewsAPI.pdb
+C:\Users\User\source\repos\NewsAPI\NewsAPI\NewsAPI\obj\Debug\netstandard2.0\NewsAPI.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\NewsAPI\NewsAPI\NewsAPI\obj\Debug\netstandard2.0\NewsAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\NewsAPI\NewsAPI\NewsAPI\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\User\source\repos\NewsAPI\NewsAPI\NewsAPI\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\User\source\repos\NewsAPI\NewsAPI\NewsAPI\obj\Debug\netstandard2.0\NewsAPI.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\NewsAPI\NewsAPI\NewsAPI\obj\Debug\netstandard2.0\NewsAPI.AssemblyInfo.cs
+C:\Users\User\source\repos\NewsAPI\NewsAPI\NewsAPI\obj\Debug\netstandard2.0\NewsAPI.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\NewsAPI\NewsAPI\NewsAPI\obj\Debug\netstandard2.0\NewsAPI.sourcelink.json
+C:\Users\User\source\repos\NewsAPI\NewsAPI\NewsAPI\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\User\source\repos\NewsAPI\NewsAPI\NewsAPI\obj\Debug\netstandard2.0\NewsAPI.dll
+C:\Users\User\source\repos\NewsAPI\NewsAPI\NewsAPI\obj\Debug\netstandard2.0\refint\NewsAPI.dll
+C:\Users\User\source\repos\NewsAPI\NewsAPI\NewsAPI\obj\Debug\netstandard2.0\NewsAPI.pdb
+C:\Users\User\source\repos\NewsAPI\NewsAPI\NewsAPI\obj\Debug\netstandard2.0\WatchNews.xaml.g.cs
+C:\Users\1\OneDrive\Рабочий стол\mobile\lab2\NewsAPI\NewsAPI\NewsAPI\bin\Debug\netstandard2.0\NewsAPI.deps.json
+C:\Users\1\OneDrive\Рабочий стол\mobile\lab2\NewsAPI\NewsAPI\NewsAPI\bin\Debug\netstandard2.0\NewsAPI.dll
+C:\Users\1\OneDrive\Рабочий стол\mobile\lab2\NewsAPI\NewsAPI\NewsAPI\bin\Debug\netstandard2.0\ref\NewsAPI.dll
+C:\Users\1\OneDrive\Рабочий стол\mobile\lab2\NewsAPI\NewsAPI\NewsAPI\bin\Debug\netstandard2.0\NewsAPI.pdb
+C:\Users\1\OneDrive\Рабочий стол\mobile\lab2\NewsAPI\NewsAPI\NewsAPI\obj\Debug\netstandard2.0\NewsAPI.csproj.AssemblyReference.cache
+C:\Users\1\OneDrive\Рабочий стол\mobile\lab2\NewsAPI\NewsAPI\NewsAPI\obj\Debug\netstandard2.0\NewsAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\1\OneDrive\Рабочий стол\mobile\lab2\NewsAPI\NewsAPI\NewsAPI\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\1\OneDrive\Рабочий стол\mobile\lab2\NewsAPI\NewsAPI\NewsAPI\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\1\OneDrive\Рабочий стол\mobile\lab2\NewsAPI\NewsAPI\NewsAPI\obj\Debug\netstandard2.0\WatchNews.xaml.g.cs
+C:\Users\1\OneDrive\Рабочий стол\mobile\lab2\NewsAPI\NewsAPI\NewsAPI\obj\Debug\netstandard2.0\NewsAPI.AssemblyInfoInputs.cache
+C:\Users\1\OneDrive\Рабочий стол\mobile\lab2\NewsAPI\NewsAPI\NewsAPI\obj\Debug\netstandard2.0\NewsAPI.AssemblyInfo.cs
+C:\Users\1\OneDrive\Рабочий стол\mobile\lab2\NewsAPI\NewsAPI\NewsAPI\obj\Debug\netstandard2.0\NewsAPI.csproj.CoreCompileInputs.cache
+C:\Users\1\OneDrive\Рабочий стол\mobile\lab2\NewsAPI\NewsAPI\NewsAPI\obj\Debug\netstandard2.0\NewsAPI.sourcelink.json
+C:\Users\1\OneDrive\Рабочий стол\mobile\lab2\NewsAPI\NewsAPI\NewsAPI\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\1\OneDrive\Рабочий стол\mobile\lab2\NewsAPI\NewsAPI\NewsAPI\obj\Debug\netstandard2.0\NewsAPI.dll
+C:\Users\1\OneDrive\Рабочий стол\mobile\lab2\NewsAPI\NewsAPI\NewsAPI\obj\Debug\netstandard2.0\refint\NewsAPI.dll
+C:\Users\1\OneDrive\Рабочий стол\mobile\lab2\NewsAPI\NewsAPI\NewsAPI\obj\Debug\netstandard2.0\NewsAPI.pdb

@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="NewsAPI.MainPage">
+
+    <StackLayout BackgroundColor="Black">
+        <StackLayout>
+            <Label Text="Поиск последних новостей" HorizontalTextAlignment="Center" TextColor="White" FontSize="24"/>
+            <Entry x:Name="titleLabel" Text="Google" TextColor="White"/>
+            
+            
+            <RadioButton x:Name="DateSort" TextColor="White" IsChecked="True" Content="Выбрать дату" CheckedChanged="Sort_CheckedChanged"/>
+            <RadioButton x:Name="CategorySort" TextColor="White" Content="Выбрать категорию" CheckedChanged="Sort_CheckedChanged" />
+            
+            <StackLayout x:Name="CategoryList" Orientation="Vertical" IsVisible="false">
+                <Label Text="Фильтр категорий новостей: " HorizontalTextAlignment="Center" TextColor="White" FontSize="22"/>
+                <Picker x:Name="CategoryFilter" WidthRequest="140" Title="Выбрать категорию" FontSize="18" TextColor="White" TitleColor="AliceBlue" >
+                <Picker.Items >
+                    <x:String>Бизнес</x:String > 
+                    <x:String>Развлечения</x:String>
+                    <x:String>Общее</x:String>
+                    <x:String>Здоровье</x:String> 
+                    <x:String>Наука</x:String> 
+                    <x:String>Технологии</x:String>
+                    <x:String>Спорт</x:String> 
+                </Picker.Items>
+            </Picker>
+            </StackLayout>
+            
+            <StackLayout x:Name="DateList" Orientation="Vertical">
+                <Label Text="Фильтр даты публикации:" HorizontalTextAlignment="Center" TextColor="White" FontSize="22"/>
+                <Picker x:Name="DateFilter" WidthRequest="140" Title="Выбрать период" FontSize="18" TextColor="White" TitleColor="AliceBlue">
+                <Picker.Items>
+                    <x:String>Месяц</x:String>
+                    <x:String>Неделя</x:String>
+                    <x:String>Сутки</x:String>
+                    <x:String>За все время</x:String>
+                </Picker.Items>
+            </Picker>
+            </StackLayout>
+        <Button Clicked="Button_Clicked" Text="Поиск"></Button>
+        </StackLayout>
+
+        <StackLayout Margin="5,0,5,15" BackgroundColor="Black">
+            <ListView HasUnevenRows="True" WidthRequest="350" HorizontalOptions="Center" VerticalOptions="Center" x:Name="newsList" ItemsSource="{Binding}" ItemSelected="SelectedItem">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <ViewCell.View>
+                                <StackLayout Margin="5" VerticalOptions="Center" HorizontalOptions="Center" BackgroundColor="LightGray" WidthRequest="650">
+                                    <StackLayout BackgroundColor="White" Margin="0,10,0,5" Padding="5" >
+                                        <Label Text="{Binding title}" TextColor="Black" HorizontalTextAlignment="Center" FontSize="20"></Label>
+                                        <Frame BorderColor="Black" Margin="0" Padding="0">
+                                            <Image Source="{Binding urlToImage}" Margin="0" Aspect="Fill" ></Image>
+                                        </Frame>
+                                        <StackLayout Orientation="Horizontal">
+                                            <Label Text="Автор: " TextColor="Black" Margin="0" HorizontalTextAlignment="Start" FontSize="20"></Label>
+                                            <Label Text="{Binding author}" TextColor="Black" Margin="0" HorizontalTextAlignment="Start" FontSize="20"></Label>
+                                        </StackLayout> 
+                                        <StackLayout >
+                                            <Label Text="{Binding data}" TextColor="Black" Margin="0" HorizontalTextAlignment="Start" FontSize="20"></Label>
+                                        </StackLayout>
+                                    </StackLayout>
+                                </StackLayout>
+                            </ViewCell.View>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </StackLayout>
+</ContentPage>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="NewsAPI.WatchNews">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="Black">
+            <StackLayout BackgroundColor="White" Padding="10" Margin="15">
+                <Label Text="{Binding title}" TextColor="Black" Margin="0" HorizontalTextAlignment="Center" FontSize="20"></Label>
+                <Image Source="{Binding urlToImage}" Margin="0,5,0,5"></Image>
+                <Label Text="{Binding description}" TextColor="Black" Margin="0" HorizontalTextAlignment="Start" FontSize="18"></Label>
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="{Binding author}" x:Name="authorText" TextColor="Black" Margin="0" HorizontalTextAlignment="Start" FontSize="16"></Label>
+                    <Label Text="-" TextColor="Black" Margin="0" HorizontalTextAlignment="Start" FontSize="16"></Label>
+                    <Label Text="{Binding data}" TextColor="Black" Margin="0" HorizontalTextAlignment="Start" FontSize="16"></Label>
+                </StackLayout>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
